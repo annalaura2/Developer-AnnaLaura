@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![PedroDev](https://github.com/goncalvespedrogom/SitePedroDev/assets/157895515/5da87544-0884-4cc2-ab79-f666b09a1eb3)
+![Anna Laura](https://github.com/annalaura2/Developer-AnnaLaura)
 
 </div>
 
