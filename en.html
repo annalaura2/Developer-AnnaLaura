@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontes início -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fonte fim -->
+    <!-- meta tag início -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Anna Laura Dev"/>
+    <meta property="og:image" content="https://lh3.googleusercontent.com/pw/AP1GczMMOtGqgmeYhtlkHNaZ3RbliWynA8COJmwLZKkdWb4pxN9WuBcsBaa77l2VfaEc_16YvyYm80crjzrM5ALeXuZ5L5x-3UByJGBK4ft-TDigh9WrqiiMkWlZHZ2Mis6LqJG_u4gcKXwgywuO8ONWeZ3t=w500-h500-s-no-gm?authuser=5"/>
+    <meta property="og:description" content="Facilitando a vida através dos códigos."/>
+    <meta property="og:site_name" content="Anna Laura Dev"/>
+    <!-- meta tag fim -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ícones font awesome início -->
+    <script src="https://kit.fontawesome.com/9e19738c2c.js" crossorigin="anonymous"></script>
+    <!-- ícones font awesome fim -->
+    <!-- ícones do bootstrap início -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- ícones do bootstrap fim -->
+    <script src="https://unpkg.com/scrollreveal"></script> <!-- scroll reveal -->
+    <script src="menu.js" defer></script>
+    <title>Anna Laura Dev</title>
+</head>
+<body>
+   <header>
+    <button class="scroll-top" onclick="backTop();">
+        <img src="imagens/top-arrow.svg" alt="">
+    </button>
+    <div class="interface"> <!-- início dos menus dos site  -->
+        <nav class="menu-desktop"> <!-- início menu do site -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobre">About me</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="btn-idioma"> <!-- botão contato menu do site -->
+            <a href="#">
+                <a href="index.html"><button><img src="imagens/brazil.png" alt="Bandeira do Reino Unido">Br</button></a>
+            </a>
+        </div>
+        <div class="btn-idioma-mobile">
+            <a href="#">
+                <a href="index.html"><button><img src="imagens/brazil.png" alt="Bandeira do Brasil"></button></a>
+            </a>
+        </div>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="menu-mobile" id="menu-mobile"> <!-- início menu mobile -->
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <nav> 
+                <ul>
+                    <li><a href="en.html">Home</a></li>
+                    <li><a href="#sobre">About me</a></li>
+                    <li><a href="#habilidades">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#redes">Contacts</a></li>
+                </ul>
+            </nav>
+        </div> <!-- fim menu mobile -->
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </div> 
+   </header>
+   <main> 
+
+        <section class="topo-do-site" id="inicio"> <!-- inícido do topo do site -->
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Using technology to change lives<span>.</span></h1>
+                        <p>My name is Anna Laura, and I believe that through code, we can enhance and create new technologies, making daily tasks easier with innovation and accessibility, bringing more comfort and well-being to people’s lives.</p>
+                        <div class="btn-contato">
+                            <a href="#redes">
+                                <button>Contact me</button>
+                            </a>
+                        </div>
+                    </div> <!-- texto topo site -->
+                    <div class="img-topo-site">
+                        <img src="imagens/foto-cartoon-Anna.png">
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section id="sobre">
+        </section>  
+        <section class="sobre"> <!-- início do sobre mim -->
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="imagens/foto-devAnna.png" alt="Foto da Anna">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>Hi, how are you? <span>My name is Anna Laura.</span></h2>
+                        <p>I am Anna Laura, a Full-Stack Developer in the sixth semester of Computer Science. Throughout my journey, I have gained experience in developing landing pages, e-commerce platforms, API integrations, and custom systems using technologies like ReactJS, Vue.js, Next.js, TypeScript, Node.js, Java, as well as databases like PostgreSQL, MySQL, and MongoDB. I have previously worked at Ooka Tecnologia, where I was responsible for creating digital solutions that optimize processes and improve user experience. My responsibilities included marketing campaign automation, integration with analytics and CRM tools, and the development of SEO-optimized and conversion-driven pages. Prior to that, at FATEAM, I worked on the development of intuitive UX/UI interfaces, always focused on the harmony between design and functionality.</p>
+                        <p>After gaining experience in the legal and administrative fields, I am now in a career transition, focusing on developing my qualifications in Full-Stack development by creating intuitive and well-structured interfaces. I believe that programming can positively impact people's lives, providing greater accessibility and satisfaction by making daily tasks easier through the enhancement or even creation of new, responsive, and visually appealing features that add value to users' everyday routines.</p>
+                        <p>In addition to my technical skills, I am a team-oriented person, communicative, resilient, and have a strong ability to adapt and organize. I am always looking for continuous improvement and collaboration to achieve efficient and impactful solutions.</p>
+                        <div class="btn-sobre">
+                            <a href="files/Curriculum Vitae - Anna Laura Castro Sousa.pdf" download>
+                                <button><i class="fa-solid fa-download"></i></i> Curriculum</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="habilidades" id="habilidades"> <!-- início das habilidades -->
+            <div class="interface">
+                <h2 class="titulo">MY MAIN <span>SKILLS.</span></h2>
+                <div class="flex-skills">
+                    <div class="habilidades-box">
+                        <i class="fa-brands fa-java"></i>
+                        <h3>Java</h3>
+                        <p>Java is a versatile language that enables the development of applications across multiple platforms, offering security and high performance. With its virtual machine, it ensures portability and efficiency, being widely used in corporate systems, mobile apps, web services, and various modern technological solutions</p>
+                    </div>
+                    <div class="habilidades-box">
+                        <i class="fa-brands fa-angular"></i>
+                        <h3>Angular</h3>
+                        <p>Angular is a robust framework for building dynamic web applications, allowing the creation of interactive and modular interfaces. With its component-based architecture, it facilitates scalable development and maintains optimized performance, ensuring a smooth and adaptable experience for different platforms and devices.</p>
+                    </div>
+                        <div class="habilidades-box">
+                        <i class="fa-brands fa-square-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>JavaScript is an essential language for web development, enabling the creation of interactive and dynamic websites. With support for frameworks and libraries, it allows the construction of robust and scalable applications, executed both on the front-end and back-end for seamless and functional experiences.</p>
+                    </div>
+                </div>
+                <div class="flex-skills">
+                    <div class="habilidades-box">
+                        <i class="fa-regular fa-file-code"></i>
+                        <h3>TypeScript</h3>
+                        <p>TypeScript is a language that adds static typing to JavaScript, providing greater security and clarity in the code. With advanced object-oriented features, it makes it easier to build scalable and robust applications, improving productivity and maintenance in complex, large-scale projects.</p>
+                    </div>
+                    <div class="habilidades-box">
+                        <i class="fa-brands fa-node-js"></i>
+                        <h3>Node.js</h3>
+                        <p>Node.js is a runtime environment for JavaScript on the server, allowing the creation of fast and scalable applications. With its event-driven architecture and non-blocking I/O, it is ideal for high-performance systems such as APIs and real-time platforms, ensuring efficiency in processing large volumes of data.</p>
+                    </div>
+                        <div class="habilidades-box">
+                        <i class="fa-brands fa-react"></i> 
+                        <h3>React</h3>
+                        <p>React is a library for building user interfaces, focusing on reusable components and fast updates. With its declarative approach and virtual DOM, it allows the creation of dynamic, high-performance applications, providing a smooth and responsive experience both in development and use.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <section class="portfolio" id="portfolio"> 
+            <div class="interface">
+                <h2 class="titulo">MY <span>PORTFOLIO.</span></h2>
+                <div class="flex">
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/);">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/);">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/);">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="flex">
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/);">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
+                    <a href="https://meuhost.vercel.app/" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/meuhost.png);">
+                            <div class="overlay">meuHost.</div>
+                        </div>
+                    </a>
+                    <a href="https://customnotes.vercel.app/" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/customnotes.png);">
+                            <div class="overlay">Custom Notes</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/controledeestoque.png);">
+                            <div class="overlay">Stock Control</div>
+                        </div>
+                    </a>
+                    <a href="" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/formmultistep.png);">
+                            <div class="overlay">React Multistep Form</div>
+                        </div>
+                    </a>
+                    <a href="https://connectbank.vercel.app/" target="_blank">
+                        <div class="img-port" style="background-image: url(imagens/connect-bank.png);">
+                            <div class="overlay">Connect Bank</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex">
+                    <div class="btn-repositorio">
+                        <a href="" target="_blank">
+                            <button><i class="bi bi-github"></i> Access all projects</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+
+        <section class="redes" id="redes"> <!-- início minhas redes -->
+            <div class="interface">
+                <h2 class="titulo">MY <span>CONTACTS.</span></h2>
+                <div class="flex">
+                    <div class="txt-redes">
+                        <a href="https://www.instagram.com/annalauracodess/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/anna-laura-39158821a/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/annalaura2" target="_blank"><button><i class="bi bi-github"></i></button></a>    
+                    </div>
+                </div>
+            </div>
+        </section>
+   </main>
+
+   <footer> <!-- inicio do rodapé -->
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="telefone-footer">
+                    <p><i class="bi bi-telephone-fill"></i> +55 (63)98430-5750</p>
+                </div>
+                <div class="email-footer">
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:annalauracodes@gmail.com" target="_blank">annalauracodes@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </footer>
+</body>
+</html>
