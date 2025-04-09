@@ -5,6 +5,4 @@
 
 ![Anna Laura](https://github.com/annalaura2/Developer-AnnaLaura)
 
-</div>
 
-<p align="center"> Link para acesso: https://devpedro.vercel.app/</p>
